@@ -1,3 +1,4 @@
 #Blam. Testing out the use of R Studio and GitHub through the desktop. 
 
-head(mtcars) 
+dat2 = mtcars 
+head(dat2, 4) 

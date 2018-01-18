@@ -1,0 +1,23 @@
+---
+title: "testRmd"
+author: "Christopher Eshleman"
+date: "1/17/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+So if I try to mess around with dplyr or the tidyverse and save it via R Markdown, I'm hoping the process will be similar to what I found before. 
+
+```{r cars}
+head(cars, 3) 
+```
+
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
